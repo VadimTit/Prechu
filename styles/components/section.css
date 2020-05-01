@@ -1,0 +1,182 @@
+.section {
+  position: relative;
+}
+.section-foreground {
+  color: #fff;
+  background: #fff;
+}
+.section-background {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+.section-background > img {
+  height: 100%;
+}
+.section-overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: rgba(000, 000, 000, 0.6);
+  opacity: 0.85;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  align-items: baseline;
+}
+.section-image > img {
+  max-width: 235px;
+  margin: 0 auto;
+}
+.section-hero {
+  padding: 20px 0;
+  position: relative;
+}
+.section-body {
+  padding: 30px 0;
+  background: #fff;
+}
+.section-hero-title {
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.section-hero-subtitle {
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+.section-shopping {
+  background: #fff;
+}
+.section-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-logo a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Segoe WP";
+  font-weight: 300;
+  margin-left: 15px;
+}
+.section-hero-content {
+  text-align: center;
+}
+.section-shopping-image > img {
+ max-width: 215px;
+ margin: 0 auto;
+}
+.section-shopping-title {
+  color: #6f7173;
+  font-family: "Segoe WPN";
+  font-size: 34px;
+  font-weight: 400;
+  text-align: center;
+}
+.section-shopping-subtitle {
+  color: #6f7173;
+  font-family: "Segoe WPN";
+  font-size: 25px;
+  font-weight: 400;
+}
+.section-shopping-description {
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 14px;
+  line-height: 23px;
+}
+.section-content {
+  max-width: 453px;
+  margin: 0 auto;
+}
+.section-footer-title {
+  padding: 25px;
+  text-align: center;
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.section-shopping {
+  padding: 20px 0;
+}
+.section-footer {
+  border-top: 1px solid #909090;
+  background: #fff;
+}
+@media (min-width: 480px) {
+  .section-hero-subtitle {
+    font-size: 18px;
+  }
+  .section-hero-title {
+    font-size: 27px;
+    margin-top: 0;
+  }
+}
+@media (min-width: 640px) {
+  .section-hero-subtitle {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+  .section-hero-title {
+    font-size: 35px;
+  }
+  .section-shopping-title {
+    font-size: 42px;
+  }
+  .section-shopping-subtitle {
+    font-size: 34px;
+  }
+  .section-shopping-description {
+    font-size: 17px;
+   line-height: 36px;
+  }
+}
+@media (min-width: 960px) {
+  .section-hero-content {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section-shopping-image > img {
+    max-width: 371px;
+  }
+  .section-shopping-description {
+    font-size: 15px;
+    line-height: 36px;
+  }
+  .section-shopping-subtitle {
+    font-size: 26px;
+    margin: 0;
+  }
+  .section-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .section-body {
+    padding: 50px 0;
+  }
+
+}

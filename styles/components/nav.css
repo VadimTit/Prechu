@@ -1,0 +1,23 @@
+.nav {
+  display: none;
+}
+.nav .nav-item {
+  color: #6c6c6c;
+  font-family: "Segoe WPN";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  padding: 0 10px;
+}
+
+.nav .nav-item:hover {
+}
+
+.nav .is-active {
+}
+
+@media (min-width: 960px) {
+  .nav {
+    display: block;
+  }
+}

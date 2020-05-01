@@ -1,0 +1,40 @@
+.row {
+  margin: -10px;
+}
+.row > .column {
+  padding: 10px;
+}
+.row-zero {
+  margin: 0;
+}
+.row-zero > .column {
+  padding: 0;
+}
+
+.row-small {
+  margin: -20px;
+}
+.row-small > .column {
+  padding: 20px;
+}
+.row-medium {
+  margin: -30px;
+}
+.row-medium > .column {
+  padding: 30px;
+}
+
+.row-large {
+  margin: -50px;
+}
+.row-large > .column {
+  padding: 50px;
+}
+
+@media (min-width: 480px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+

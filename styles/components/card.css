@@ -1,0 +1,89 @@
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #00000026;
+}
+.card-icon {
+    color: black;
+    font-size: 20px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 8px;
+    top: 0;
+}
+.card-title {
+    color: #5094f2;
+    font-family: "Segoe WPN";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: #909090;
+    font-family: "Segoe WPN";
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.card-body {
+    padding-left: 80px;
+}
+.card-blue {
+    background: #5094f2;
+    padding: 16px 21px;
+    border-radius: 50%;
+}
+.card-red {
+    background: #d94748;
+    padding: 16px 18px;
+    border-radius: 50%; 
+}
+.card-yellow {
+    background: #ebbb11;
+    padding: 16px 18px;
+    border-radius: 50%; 
+}
+
+@media (min-width: 640px) {
+  .card-icon {
+      font-size: 33px;
+  }
+  .card-description {
+    margin-bottom: 32px;
+    font-size: 18px;
+  }
+  .card-title {
+      font-size: 27px;
+  }
+  .card-body {
+    padding-left: 100px;
+  }
+}
+@media (min-width: 960px) {
+    .card-icon {
+        position: static;
+    }
+    .card {
+        flex-direction: column;
+        border: none;
+        text-align: center;
+    }
+    .card-body {
+        padding: 0;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-description {
+        font-size: 14px;
+    }
+    .card-red, .card-yellow {
+        padding: 25px 28px;
+      }
+    .card-blue {
+        padding: 25px 33px;
+      }
+}
