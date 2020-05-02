@@ -16,7 +16,7 @@
   margin: 0;
 }
 .section-background > img {
-  width: 100%;
+  width: auto;
   height: 660px;
 }
 
