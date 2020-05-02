@@ -14,17 +14,13 @@
   height: 44px;
   
 }
-.nav .nav-item:hover {
-}
-
-.nav .is-active {
-}
-
 @media (min-width: 960px) {
   .nav a {
     display: block;
   }
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .nav > img {
