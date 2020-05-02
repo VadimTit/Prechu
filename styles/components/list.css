@@ -1,2 +1,40 @@
-.list {
+.list-shopping {
+    list-style-type: none;
+    padding-left: 0;
+}
+.list-shopping > li {
+    font-family: "Segoe WPN";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #909090;
+}
+.list-hero {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 0 20px 0;
+    text-align: start;
+}
+.list-hero > li {
+    font-family: "Segoe WP";
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+}
+@media (min-width: 480px) {
+    .list-hero > li {
+    font-size: 18px;
+    }
+    .list-hero {
+     margin: 0 0 12px 0;
+    }
+}
+@media (min-width: 640px) {
+    .list-shopping > li {
+    font-size: 15px;
+    line-height: 36px;
+    }
+    .list-hero > li {
+        font-size: 25px;
+    }
 }

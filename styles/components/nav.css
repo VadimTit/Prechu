@@ -1,4 +1,4 @@
-.nav {
+.nav a {
   display: none;
 }
 .nav .nav-item {
@@ -9,7 +9,11 @@
   letter-spacing: 0.2px;
   padding: 0 10px;
 }
-
+.nav > img {
+  width: 58px;
+  height: 44px;
+  
+}
 .nav .nav-item:hover {
 }
 
@@ -17,7 +21,13 @@
 }
 
 @media (min-width: 960px) {
-  .nav {
+  .nav a {
     display: block;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav > img {
+    display: none;
   }
 }

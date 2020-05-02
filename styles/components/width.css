@@ -51,6 +51,12 @@
   .width-1-6-sm {
     width: 16.66%;
   }
+  .width-3-5-sm {
+    width: 60%;
+  }
+  .width-2-5-sm {
+    width: 40%;
+  }
 }
 
 @media (min-width: 640px) {

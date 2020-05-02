@@ -17,6 +17,9 @@ html {
   overflow: hidden;
   position: relative;
 }
+.container-fluid {
+  padding: 0 !important;
+}
 .container-header {
   background: #fff;
 }
@@ -37,12 +40,12 @@ html {
 }
 
 a {
-  color: #ff1744;
+  color: #5094f2;
   text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 img {
